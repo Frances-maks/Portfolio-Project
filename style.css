@@ -3,6 +3,7 @@
     margin: auto;
     width: 50%;
     box-sizing: border-box;
+    background-color: rgb(235, 231, 231);
 }
 h1{
     text-align: center;
@@ -30,6 +31,7 @@ span{
     font-size: large;
     margin-top: 20px;
     margin-bottom: 40px;
+    padding: 20px;
 }
 .image1{
     border: 5px solid black;
@@ -146,9 +148,9 @@ button{
 }
 .tag{
     
-    margin-left: 50%;
+    margin-left: 45%;
 }
 .foot{
-    margin-left: 10%;
+    margin-left: 5%;
     text-align: center;
 }
