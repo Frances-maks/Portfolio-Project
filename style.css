@@ -4,6 +4,8 @@
     width: 50%;
     box-sizing: border-box;
     background-color: rgb(235, 231, 231);
+    border-radius: 20px;
+    box-shadow: 0px 4px 25px 0px rgba(130,115,115,0.69);
 }
 h1{
     text-align: center;
@@ -60,6 +62,7 @@ span{
     text-justify: inter-word;
     background-color: antiquewhite;
     padding: 10px;
+    border-radius: 5px;
 }
 .second{
     font-style: italic;
@@ -106,6 +109,7 @@ h3{
 #offers{
     font-style: italic;
     text-align: justify;
+    padding-left: 10px;
 }
 ul{
     list-style-type: circle;
@@ -117,22 +121,31 @@ ul{
     background-color: linen;
     padding: 10px;
     width: 90%;
+    margin-left: 10px;
+    border-radius: 10px;
 }
 .head{ 
     line-height: 80% ;
     margin-top: 10px;
 }
+h2{
+    padding-left: 10px;
+}
 .Get{
     line-height: 10%;
     margin-top: 5%;
+    padding-left: 10px;
 }
+
 fieldset{
     background-color: antiquewhite;
-border: 2px solid;
+    border: 2px solid;
 }
+
 legend{
     background-color: linen;
     box-sizing: border-box;
+    padding-left: 10px;
 }
 label{
     color: rgb(6, 77, 77);
@@ -145,6 +158,11 @@ input, textarea, select{
 button{
     background-color: antiquewhite;
     border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightgrey;
+    color: blue;
 }
 .tag{
     
